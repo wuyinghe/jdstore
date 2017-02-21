@@ -18,4 +18,5 @@ root 'products#index'
       post :checkout
     end
   end
+  resources :orders
 end
