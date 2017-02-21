@@ -3,6 +3,7 @@ root 'products#index'
   devise_for :users
   namespace :admin do
     resources :products
+    resources :orders
   end
   resources :cart_items
   resources :products do
