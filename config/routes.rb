@@ -19,4 +19,7 @@ root 'products#index'
     end
   end
   resources :orders
+  namespace :account do
+   resources :orders
+ end
 end
