@@ -16,6 +16,8 @@ production:
   qiniu_bucket_domain: xxxx # 你的 qiniu bucket domain
   SEND_CLOUD_USER_NAME: "xxxx"  # 你的 API_USER
   SEND_CLOUD_USER_KEY: "xxxx"  # 你的 API_KEY
+  PROJECT_ID:  "XXXX"
+  PROJECT_KEY:   "XXXX"
 
 
 development:
@@ -25,3 +27,5 @@ development:
   qiniu_bucket_domain: xxxx # 你的 qiniu bucket domain
   SEND_CLOUD_USER_NAME: "xxxx"  # 你的 API_USER
   SEND_CLOUD_USER_KEY: "xxxx"  # 你的 API_KEY
+  PROJECT_ID:  "XXXX"
+  PROJECT_KEY:   "XXXX"
